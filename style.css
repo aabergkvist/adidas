@@ -32,6 +32,13 @@ a:active {
 	border: 2px solid #f54d40;
 }
 
+#rb-yes:after {
+	content: "Yes";
+}
+
+#rb-no:after {
+	content: "No";
+}
 
 #main {
 	width: 95%;
