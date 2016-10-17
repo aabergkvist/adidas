@@ -133,7 +133,7 @@ body {
 }
 
 .ui-slider-handle {
-	
+
 }
 
 #content {
@@ -181,10 +181,11 @@ body {
 }
 
 .netigatetextarea {
-	height: 100px;
-	width: 300px;
-	font-size: 14px;
-	font-family: 'open sans',verdana;
+    height: 200px;
+    width: 80%;
+    font-size: 14px;
+    font-family: 'open sans',verdana;
+    background-color: transparent;
 }
 
 .netigatetexbox {
@@ -199,9 +200,9 @@ body {
 }
 
 .mheader {
-	font-size: 18px;
+	font-size: 32px;
 	font-family: 'open sans',verdana;
-	color: #49a4d9;
+	color: #fff;
 }
 
 .qoption {
