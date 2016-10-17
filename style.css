@@ -36,6 +36,9 @@ a:active {
 	content: "Yes";
 	color:#fff;
 	font-size: 20px;
+	position: absolute;
+	top: 530px;
+	right: 544px;
 }
 
 #rb-no:after {
