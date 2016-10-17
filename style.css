@@ -139,6 +139,13 @@ body {
     margin-top: 0px;
 }
 
+.sliderWeightDiv{
+	position:absolute;
+	z-index: 500;
+	color: white;
+	top: calc(100% - 12px);
+}
+
 #ctl12_N-9-62425923-slider > span {
     left: 0%;
     background: none!important;
