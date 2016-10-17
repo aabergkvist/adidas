@@ -124,6 +124,18 @@ body {
 		font-weight: 200;
 }
 
+.ui-slider {
+
+}
+
+.ui-slider-range {
+
+}
+
+.ui-slider-handle {
+	
+}
+
 #content {
 	width: 100%;
 	margin: 0 auto 0 auto;
