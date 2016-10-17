@@ -125,7 +125,7 @@ body {
 }
 
 #content {
-	width: 750px;
+	width: 100%;
 	margin: 0 auto 0 auto;
 	padding: 10px;
 	min-height: 350px;
@@ -141,10 +141,10 @@ body {
 }
 
 .qheader {
-	font-size: 23px;
+	font-size: 55px;
 	font-weight: 200;
 	font-family: 'open sans',verdana;
-	color: #49a4d9;
+	color: #fff;
 }
 
 .pbar {
