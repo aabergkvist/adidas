@@ -176,6 +176,16 @@ body {
     background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gradient(to right, #548e5c 0%, #f54d40 100%);
 }
 
+.netigateradiobutton {
+	display: none;
+}
+
+#rb-yes {
+	border: 2px solid #fff;
+	border-radius: 50px;
+	width: 100px;
+}
+
 .radiocol .netigateradiobutton+label {
 	border: 1px solid #fff;
 }
