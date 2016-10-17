@@ -205,12 +205,14 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
 }
 
 .rb-label .netigateradiobutton:checked + .radioLabelDisplay {
-	background-color:#000;
+	border: 2px solid green;
 }
 
 .radioLabelDisplay {
 	width: 100%;
 	height: 100%;
+	border: 2px solid red;
+	border-radius: 25px;
 }
 
 #content {
