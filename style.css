@@ -45,7 +45,11 @@ a:active {
 	content: "No";
 	color:#fff;
 	font-size: 20px;
+	position: absolute;
+	top: 530px;
+	right: 444px;
 }
+
 
 #main {
 	width: 95%;
@@ -100,7 +104,7 @@ a:active {
 }
 
 .NetigateNextButton {
-	cursor: pointer;
+	cursor: pointer; 
 	float: right;
 	font-size: 0;
 	background-color: transparent;
@@ -205,6 +209,7 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
 #rb-no  {
 	width: 100px;
 	height: 50px;
+	margin-left: 50px;
 }
 
 .RadioLabelDisplay {
