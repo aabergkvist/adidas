@@ -251,21 +251,21 @@ body {
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #fff;
-    font-size: 29px;
+    font-size: 20px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    #fff;
    opacity:  1;
-   font-size: 29px;
+   font-size: 20px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    #fff;
    opacity:  1;
-   font-size: 29px;
+   font-size: 20px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    #fff;
-   font-size: 29px;
+   font-size: 20px;
 }
 
 .pbarinner {
@@ -301,7 +301,7 @@ td.slideroption {
 }
 
 .mheader {
-	font-size: 32px;
+	font-size: 27px;
 	font-family: 'open sans',verdana;
 	color: #fff;
 }
