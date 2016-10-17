@@ -416,4 +416,8 @@ td.slideroption {
 		margin-bottom: 40px;
 		border-bottom: 2px solid #fff;
 	}
+
+	.mheader {
+		font-size: 16px;
+	}
 }
