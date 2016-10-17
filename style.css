@@ -153,7 +153,7 @@ body {
 }
 
 .qheader {
-	font-size: 55px;
+	font-size: 55px!important;
 	font-weight: 200;
 	font-family: 'open sans',verdana;
 	color: #fff;
