@@ -183,8 +183,14 @@ body {
 .qheader {
 	font-size: 55px!important;
 	font-weight: 200;
+	margin-top: 40px;
 	font-family: 'open sans',verdana;
 	color: #fff;
+}
+
+.one-half .firstcol,
+.one-half {
+	margin-bottom: 30px;
 }
 
 .pbar {
