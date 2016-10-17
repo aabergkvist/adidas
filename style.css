@@ -388,7 +388,7 @@ td.slideroption {
 	margin-left: 0;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
 	.five-sixths,
 	.four-fifths,
 	.four-sixths,
@@ -406,5 +406,14 @@ td.slideroption {
 	.two-thirds {
 		margin: 0;
 		width: 100%;
+	}
+
+	.one-half .firstcol {
+		margin-bottom: 17px;
+	}
+
+	.one-half {
+		margin-bottom: 40px;
+		border-bottom: 2px solid #fff;
 	}
 }
