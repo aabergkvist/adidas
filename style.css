@@ -196,14 +196,21 @@ body {
 
 #rb-yes,
 #rb-no  {
-	border: 2px solid #fff;
-	border-radius: 50px;
 	width: 100px;
 	height: 50px;
 }
 
-.radiocol .netigateradiobutton+label {
-	border: 1px solid #fff;
+.RadioLabelDisplay {
+	border: 2px solid #fff; 
+}
+
+.rb-label .netigateradiobutton:checked + .RadioLabelDisplay {
+	background-color:#000;
+}
+
+.RadioLabelDisplay {
+	width: 100%;
+	height: auto;
 }
 
 #content {
