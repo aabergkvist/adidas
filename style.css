@@ -34,10 +34,14 @@ a:active {
 
 #rb-yes:after {
 	content: "Yes";
+	color:#fff;
+	font-size: 20px;
 }
 
 #rb-no:after {
 	content: "No";
+	color:#fff;
+	font-size: 20px;
 }
 
 #main {
@@ -162,12 +166,12 @@ body {
 }
 
 #ctl12_N-9-62425923-slider > span {
-    left: 0%;
-    background: none!important;
-    border: 3px solid #fff!important;
-    width: 40px;
-    margin-left: -19px;
-    margin-top: -3px;
+left: 0%;
+background: none !important;
+border: 6px solid #fff !important;
+width: 40px;
+margin-left: -21px;
+margin-top: -7px;
 }
 
 .sliderContainer {
