@@ -128,7 +128,7 @@ body {
 }
 
 .ui-slider-range {
-
+    display: none;
 }
 
 .ui-slider-handle {
