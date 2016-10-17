@@ -222,6 +222,10 @@ body {
     background-color: transparent;
 }
 
+td.slideroption {
+	color:#fff;
+}
+
 .netigatetexbox {
 	width: 300px;
 	font-size: 14px;
