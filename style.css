@@ -27,11 +27,11 @@ a:active {
 }
 
 #main {
-	width: 775px;
+	width: 95%;
 	border-color: #000000;
 	border-style: none;
 	border-width: 1px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	background-color: transparent;
 	padding: 15px;
 	border-radius: 5px;
@@ -158,6 +158,10 @@ body {
     background-image: -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
     background-image: -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
     background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gradient(to right, #548e5c 0%, #f54d40 100%);
+}
+
+.radiocol .netigateradiobutton+label:after {
+	border: 1px solid #fff;
 }
 
 #content {
