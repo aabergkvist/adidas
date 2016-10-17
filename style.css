@@ -24,6 +24,15 @@ a:active {
 	float: right;
 }
 
+.radiocol .netigateradiobutton:checked #rb-yes{
+    border: 2px solid #548e5c;
+}
+
+.radiocol .netigateradiobutton:checked #rb-no {
+	border: 2px solid #f54d40;
+}
+
+
 #main {
 	width: 95%;
 	border-color: #000000;
