@@ -1,0 +1,207 @@
+a {
+	color: #49a4d9;
+}
+
+a:hover {
+	color: #66bbed;
+}
+
+a:active {
+	color: #49a4d9;
+}
+
+#mobilebanner {
+	height: 67px;
+	margin: 0 auto 0 auto;
+	background-image: url(https://www.netigate.se/cssgenerator3/upload/9819/6e8bc285-bea2-4a42-acae-84c6c7698151.png);
+	background-size: 0;
+}
+
+#mainbanner {
+	height: auto;
+	width: auto;
+	margin: 0 auto 0 auto;
+	background-image: url(https://www.netigate.se/cssgenerator3/upload/9819/6e8bc285-bea2-4a42-acae-84c6c7698151.png);
+	background-size: 0;
+	float: none;
+}
+
+#main {
+	width: 775px;
+	border-color: #000000;
+	border-style: none;
+	border-width: 1px;
+	margin: 0 auto 0 auto;
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 15px;
+}
+
+#footer {
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 50px;
+}
+
+.NetigateBackButton {
+	cursor: pointer;
+	float: left;
+	font-size: 0;
+	background-position: center;
+	background-image: url(../cssgenerator3/images/buttonstyles2/skyblue-l.png);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border-width: 0;
+	height: 50px;
+	width: 50px;
+	background-size: contain;
+}
+
+.NetigateEndButton {
+	cursor: pointer;
+	float: right;
+	font-size: 0;
+	background-color: transparent;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	background-image: url(../cssgenerator3/images/buttonstyles2/skyblue-r.png);
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	border-width: 0;
+	background-position: center;
+	background-size: contain;
+}
+
+.NetigateNextButton {
+	cursor: pointer;
+	float: right;
+	font-size: 0;
+	background-color: transparent;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	background-image: url(../cssgenerator3/images/buttonstyles2/skyblue-r.png);
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	border-width: 0;
+	background-position: center;
+	background-size: contain;
+}
+
+.NetigateToSurveyButton {
+	cursor: pointer;
+	float: right;
+	font-size: 0;
+	background-color: transparent;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	background-image: url(../cssgenerator3/images/buttonstyles2/skyblue-r.png);
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	border-width: 0;
+	background-position: center;
+	background-size: contain;
+}
+
+body {
+	background-color: #49a4d9;
+	font-family: 'open sans',verdana;
+	font-weight: 200;
+}
+
+#content {
+	width: 750px;
+	margin: 0 auto 0 auto;
+	padding: 10px;
+	min-height: 350px;
+	background-color: #;
+}
+
+#header {
+	margin-bottom: 50px;
+	height: auto;
+	width: auto;
+	text-align: left;
+	margin: 0 auto 0 auto;
+}
+
+.qheader {
+	font-size: 23px;
+	font-weight: 200;
+	font-family: 'open sans',verdana;
+	color: #49a4d9;
+}
+
+.pbar {
+	width: 300px;
+	height: 15px;
+	background-color: transparent;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1px;
+	margin: 0 auto 10px auto;
+}
+
+.pbarinner {
+	background-color: #49a4d9;
+	height: 100%;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.netigatetextarea {
+	height: 100px;
+	width: 300px;
+	font-size: 14px;
+	font-family: 'open sans',verdana;
+}
+
+.netigatetexbox {
+	width: 300px;
+	font-size: 14px;
+	font-family: 'open sans',verdana;
+}
+
+.qdescription {
+	font-size: 16px;
+	font-family: 'open sans',verdana;
+}
+
+.mheader {
+	font-size: 18px;
+	font-family: 'open sans',verdana;
+	color: #49a4d9;
+}
+
+.qoption {
+	font-size: 14px;
+	font-family: 'open sans',verdana;
+}
+
+.footertext {
+	font-size: 11px;
+	font-family: 'open sans',verdana;
+}
+
+.footlink {
+	font-size: 11px;
+	font-family: 'open sans',verdana;
+}
+
+#progressbardiv {
+}
+
+¤ {
+}
