@@ -129,6 +129,7 @@ body {
 
 .ui-slider-range {
     display: none;
+    background-color: transparent!important;
 }
 
 .ui-slider-handle {
