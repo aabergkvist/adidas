@@ -114,7 +114,11 @@ a:active {
 }
 
 body {
-	    background-image: url( http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg);
+	    background: url(http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
     	background-size: contain;
 		font-family: 'open sans',verdana;
 		font-weight: 200;
