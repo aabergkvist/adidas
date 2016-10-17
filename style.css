@@ -207,18 +207,22 @@ body {
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #909;
+    color:    #fff;
+    font-size: 29px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #909;
+   color:    #fff;
    opacity:  1;
+   font-size: 29px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #909;
+   color:    #fff;
    opacity:  1;
+   font-size: 29px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #909;
+   color:    #fff;
+   font-size: 29px;
 }
 
 .pbarinner {
