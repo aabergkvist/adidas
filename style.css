@@ -180,10 +180,12 @@ body {
 	display: none;
 }
 
-#rb-yes {
+#rb-yes,
+#rb-no  {
 	border: 2px solid #fff;
 	border-radius: 50px;
 	width: 100px;
+	height: 50px;
 }
 
 .radiocol .netigateradiobutton+label {
