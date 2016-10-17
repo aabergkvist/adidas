@@ -18,6 +18,7 @@ a:active {
 }
 
 #mainbanner {
+	display: none;
 	height: auto;
 	width: auto;
 	margin: 0 auto 0 auto;
@@ -32,7 +33,7 @@ a:active {
 	border-style: none;
 	border-width: 1px;
 	margin: 0 auto 0 auto;
-	background-color: #fff;
+	background-color: transparent;
 	padding: 15px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -41,6 +42,7 @@ a:active {
 }
 
 #footer {
+	display: none;
 	text-align: center;
 	margin-bottom: 15px;
 	margin-top: 50px;
@@ -112,9 +114,10 @@ a:active {
 }
 
 body {
-	background-color: #49a4d9;
-	font-family: 'open sans',verdana;
-	font-weight: 200;
+	    background-image: url( http://netigate.se/CSSGenerator2/adidasImages/rita-ora-x-adidas-originals-stan-smith.jpg);
+    	background-size: contain;
+		font-family: 'open sans',verdana;
+		font-weight: 200;
 }
 
 #content {
@@ -201,6 +204,7 @@ body {
 }
 
 #progressbardiv {
+	display: none;
 }
 
 ¤ {
