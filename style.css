@@ -193,19 +193,26 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
 	margin-left: 50px;
 }
 
-.RadioLabelDisplay {
-	border: 2px solid #fff; 
+.rb-label .netigateradiobutton:checked + #firstRadioLabelDisplay {
+	background-color: green;
 }
 
-.rb-label .netigateradiobutton:checked + .radioLabelDisplay {
-	border: 2px solid green;
+.rb-label .netigateradiobutton:checked + #secondRadioLabelDisplay {
+	background-color: red;
 }
 
 .radioLabelDisplay {
 	width: 100%;
 	height: 100%;
-	border: 2px solid red;
 	border-radius: 25px;
+}
+
+.firstRadioLabelDisplay {
+	border: 2px solid green;
+}
+
+.secondRadioLabelDisplay {
+	border: 2px solid red;
 }
 
 .labelDisplayParagraph{
