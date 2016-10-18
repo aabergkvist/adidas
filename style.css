@@ -227,6 +227,50 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
 	border-radius: 25px;
 }
 
+.labelDisplayParagraph{
+	margin-top: 12px;
+	margin-right: 1px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-input-placeholder {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+:-moz-placeholder {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+::-moz-placeholder {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+:-ms-input-placeholder {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.sliderWeightDiv{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #content {
 	width: 100%;
 	margin: 0 auto 0 auto;
