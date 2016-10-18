@@ -10,6 +10,11 @@ a:active {
 	color: #49a4d9;
 }
 
+#main{
+	display:none;
+	
+}
+
 #mobilebanner {
 	height: 67px;
 	margin: 0 auto 0 auto;
@@ -192,6 +197,9 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
 	height: 50px;
 	margin-left: 50px;
 }
+.rb-label{
+	cursor: pointer;
+}
 
 .rb-label .netigateradiobutton:checked + #firstRadioLabelDisplay {
 	background-color: green;
@@ -230,25 +238,7 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
     user-select: none;
 }
 
-::-webkit-input-placeholder {
-	padding-left: 10px;
-	padding-top: 5px;
-}
 
-:-moz-placeholder {
-	padding-left: 10px;
-	padding-top: 5px;
-}
-
-::-moz-placeholder {
-	padding-left: 10px;
-	padding-top: 5px;
-}
-
-:-ms-input-placeholder {
-	padding-left: 10px;
-	padding-top: 5px;
-}
 
 .sliderWeightDiv{
 	-webkit-touch-callout: none;
@@ -335,6 +325,12 @@ background-image: linear-gradient(to right, #548e5c 0%, #f54d40 100%), linear-gr
     border: 1px solid #fff;
     font-family: 'open sans',verdana;
     background-color: transparent;
+	color: white;
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+	font-size: 16px;
 }
 
 td.slideroption {
@@ -352,15 +348,21 @@ td.slideroption {
 	font-family: 'open sans',verdana;
 }
 
+#buttonholder{
+	display: none;
+}
+
 .mheader {
-	font-size: 24px;
+	font-size: 22px;
 	font-family: 'open sans',verdana;
 	color: #fff;
+	font-weight: bold;
 }
 
 .qoption {
-	font-size: 22px;
+	font-size: 18px;
 	font-family: 'open sans',verdana;
+	font-weight: bold;
 }
 
 .footertext {
@@ -432,7 +434,15 @@ td.slideroption {
 	margin-left: 0;
 }
 
-@media only screen and (max-width: 767px) {
+.ui-slider-horizontal .ui-slider-handle{
+	top: -.7em;
+}
+
+.ui-slider .ui-slider-handle{
+	height: 2.4em;
+}
+
+@media only screen and (max-width: 1080px) {
 	.five-sixths,
 	.four-fifths,
 	.four-sixths,
@@ -459,6 +469,10 @@ td.slideroption {
 	.one-half {
 		margin-bottom: 40px;
 	}
+	
+	.firstcol{
+		text-align: center;
+	}
 
 	.mheader {
 		font-size: 16px;
@@ -468,4 +482,49 @@ td.slideroption {
 		text-align: center;
 		margin: 0 auto;
 	}
+	
+	.ui-slider-horizontal .ui-slider-handle{
+		top: 0.0em;
+		width:74px !important;
+		height: 63px !important;
+		margin-left:-43px !important;
+	}
+	
+	.ui-slider{
+		width: 95% !important;
+	}
+	
+	.sliderWeightDiv{
+		top:-5px;
+	}
+	
+	#rb-yes, #rb-no{
+		width: 80%;
+		height:100px;
+	}
+	.radiocol{
+		width:50%;
+	}
+	
+	.labelDisplayParagraph{
+		font-size: 48px;
+		padding-top: 18px;
+	}
+	
+	.one-half{
+		text-align:center;
+	}
+	
+	.mheader{
+		font-size: 40px !important;
+	}
+	
+	.slideroption{
+		padding: 10px !important;
+	}
+	
+	.slideroption .qoption{
+		font-size: 34px !important;
+	}
+	
 }
